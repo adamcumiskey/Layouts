@@ -8,12 +8,16 @@
 
 import UIKit
 import XCTest
+import Layouts
 
 class LayoutsTests: XCTestCase {
     
+    let defaultEvent = CalendarEvent()
+    let startDateEvent = CalendarEvent(startDate: NSDate().dateByAddingTimeInterval(3600))
+    let durationEvent = CalendarEvent(startDate: NSDate(), duration: 1000)
+
     override func setUp() {
         super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
     }
     
     override func tearDown() {
@@ -21,9 +25,20 @@ class LayoutsTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
+    func testCalendarEventInitialization() {
+        func testEvent(event: CalendarEvent) {
+            let startDate = event.startDate
+            let endDate = event.endDate
+            let duration = event.duration
+            
+            XCTAssertNotNil(startDate, "No start date set")
+            XCTAssertNotNil(endDate, "No end date set")
+            XCTAssertNotNil(duration, "No duration set")
+        }
+        
+        testEvent(defaultEvent)
+        testEvent(startDateEvent)
+        testEvent(durationEvent)
     }
     
     func testPerformanceExample() {
