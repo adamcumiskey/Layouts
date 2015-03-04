@@ -17,8 +17,15 @@
 		663DFB131AA2B846006C2E3D /* CalendarCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663DFB121AA2B846006C2E3D /* CalendarCollectionViewLayout.swift */; };
 		663DFB151AA2B8B4006C2E3D /* LineDecorationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663DFB141AA2B8B4006C2E3D /* LineDecorationView.swift */; };
 		663DFB171AA3D2F2006C2E3D /* CalendarEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663DFB161AA3D2F2006C2E3D /* CalendarEvent.swift */; };
+		664005D11AA6029000967249 /* ShapeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 664005D01AA6029000967249 /* ShapeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		664005D71AA6029100967249 /* ShapeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664005CC1AA6029000967249 /* ShapeKit.framework */; };
+		664005E01AA6029100967249 /* ShapeKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664005DF1AA6029100967249 /* ShapeKitTests.swift */; };
+		664005E31AA6029100967249 /* ShapeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664005CC1AA6029000967249 /* ShapeKit.framework */; };
+		664005E51AA6029100967249 /* ShapeKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 664005CC1AA6029000967249 /* ShapeKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		664005ED1AA602BE00967249 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664005EC1AA602BE00967249 /* CircleView.swift */; };
 		66AF10721AA3F9D100FC35A9 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AF10711AA3F9D100FC35A9 /* Event.swift */; };
 		66AF10741AA40E3400FC35A9 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AF10731AA40E3400FC35A9 /* Date.swift */; };
+		66AF10761AA53B1900FC35A9 /* LineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AF10751AA53B1900FC35A9 /* LineView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +36,42 @@
 			remoteGlobalIDString = 663DFAE81AA29961006C2E3D;
 			remoteInfo = Layouts;
 		};
+		664005D81AA6029100967249 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 663DFAE11AA29961006C2E3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 664005CB1AA6029000967249;
+			remoteInfo = ShapeKit;
+		};
+		664005DA1AA6029100967249 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 663DFAE11AA29961006C2E3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 663DFAE81AA29961006C2E3D;
+			remoteInfo = Layouts;
+		};
+		664005E11AA6029100967249 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 663DFAE11AA29961006C2E3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 664005CB1AA6029000967249;
+			remoteInfo = ShapeKit;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		664005E41AA6029100967249 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				664005E51AA6029100967249 /* ShapeKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		663DFAE91AA29961006C2E3D /* Layouts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Layouts.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,8 +88,16 @@
 		663DFB121AA2B846006C2E3D /* CalendarCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarCollectionViewLayout.swift; sourceTree = "<group>"; };
 		663DFB141AA2B8B4006C2E3D /* LineDecorationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineDecorationView.swift; sourceTree = "<group>"; };
 		663DFB161AA3D2F2006C2E3D /* CalendarEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarEvent.swift; sourceTree = "<group>"; };
+		664005CC1AA6029000967249 /* ShapeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ShapeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		664005CF1AA6029000967249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		664005D01AA6029000967249 /* ShapeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShapeKit.h; sourceTree = "<group>"; };
+		664005D61AA6029000967249 /* ShapeKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShapeKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		664005DE1AA6029100967249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		664005DF1AA6029100967249 /* ShapeKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeKitTests.swift; sourceTree = "<group>"; };
+		664005EC1AA602BE00967249 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		66AF10711AA3F9D100FC35A9 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		66AF10731AA40E3400FC35A9 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		66AF10751AA53B1900FC35A9 /* LineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				664005E31AA6029100967249 /* ShapeKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +113,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664005C81AA6029000967249 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664005D31AA6029000967249 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664005D71AA6029100967249 /* ShapeKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +139,8 @@
 			children = (
 				663DFAEB1AA29961006C2E3D /* Layouts */,
 				663DFB011AA29961006C2E3D /* LayoutsTests */,
+				664005CD1AA6029000967249 /* ShapeKit */,
+				664005DC1AA6029100967249 /* ShapeKitTests */,
 				663DFAEA1AA29961006C2E3D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -82,6 +150,8 @@
 			children = (
 				663DFAE91AA29961006C2E3D /* Layouts.app */,
 				663DFAFE1AA29961006C2E3D /* LayoutsTests.xctest */,
+				664005CC1AA6029000967249 /* ShapeKit.framework */,
+				664005D61AA6029000967249 /* ShapeKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,6 +167,7 @@
 				66AF10731AA40E3400FC35A9 /* Date.swift */,
 				66AF10711AA3F9D100FC35A9 /* Event.swift */,
 				663DFB141AA2B8B4006C2E3D /* LineDecorationView.swift */,
+				66AF10751AA53B1900FC35A9 /* LineView.swift */,
 				663DFAF21AA29961006C2E3D /* Main.storyboard */,
 				663DFAF51AA29961006C2E3D /* Images.xcassets */,
 				663DFAF71AA29961006C2E3D /* LaunchScreen.xib */,
@@ -130,7 +201,53 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		664005CD1AA6029000967249 /* ShapeKit */ = {
+			isa = PBXGroup;
+			children = (
+				664005D01AA6029000967249 /* ShapeKit.h */,
+				664005EC1AA602BE00967249 /* CircleView.swift */,
+				664005CE1AA6029000967249 /* Supporting Files */,
+			);
+			path = ShapeKit;
+			sourceTree = "<group>";
+		};
+		664005CE1AA6029000967249 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				664005CF1AA6029000967249 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		664005DC1AA6029100967249 /* ShapeKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				664005DF1AA6029100967249 /* ShapeKitTests.swift */,
+				664005DD1AA6029100967249 /* Supporting Files */,
+			);
+			path = ShapeKitTests;
+			sourceTree = "<group>";
+		};
+		664005DD1AA6029100967249 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				664005DE1AA6029100967249 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		664005C91AA6029000967249 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664005D11AA6029000967249 /* ShapeKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		663DFAE81AA29961006C2E3D /* Layouts */ = {
@@ -140,10 +257,12 @@
 				663DFAE51AA29961006C2E3D /* Sources */,
 				663DFAE61AA29961006C2E3D /* Frameworks */,
 				663DFAE71AA29961006C2E3D /* Resources */,
+				664005E41AA6029100967249 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				664005E21AA6029100967249 /* PBXTargetDependency */,
 			);
 			name = Layouts;
 			productName = Layouts;
@@ -168,6 +287,43 @@
 			productReference = 663DFAFE1AA29961006C2E3D /* LayoutsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		664005CB1AA6029000967249 /* ShapeKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 664005EA1AA6029100967249 /* Build configuration list for PBXNativeTarget "ShapeKit" */;
+			buildPhases = (
+				664005C71AA6029000967249 /* Sources */,
+				664005C81AA6029000967249 /* Frameworks */,
+				664005C91AA6029000967249 /* Headers */,
+				664005CA1AA6029000967249 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShapeKit;
+			productName = ShapeKit;
+			productReference = 664005CC1AA6029000967249 /* ShapeKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		664005D51AA6029000967249 /* ShapeKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 664005EB1AA6029100967249 /* Build configuration list for PBXNativeTarget "ShapeKitTests" */;
+			buildPhases = (
+				664005D21AA6029000967249 /* Sources */,
+				664005D31AA6029000967249 /* Frameworks */,
+				664005D41AA6029000967249 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				664005D91AA6029100967249 /* PBXTargetDependency */,
+				664005DB1AA6029100967249 /* PBXTargetDependency */,
+			);
+			name = ShapeKitTests;
+			productName = ShapeKitTests;
+			productReference = 664005D61AA6029000967249 /* ShapeKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -181,6 +337,13 @@
 						CreatedOnToolsVersion = 6.3;
 					};
 					663DFAFD1AA29961006C2E3D = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 663DFAE81AA29961006C2E3D;
+					};
+					664005CB1AA6029000967249 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					664005D51AA6029000967249 = {
 						CreatedOnToolsVersion = 6.3;
 						TestTargetID = 663DFAE81AA29961006C2E3D;
 					};
@@ -201,6 +364,8 @@
 			targets = (
 				663DFAE81AA29961006C2E3D /* Layouts */,
 				663DFAFD1AA29961006C2E3D /* LayoutsTests */,
+				664005CB1AA6029000967249 /* ShapeKit */,
+				664005D51AA6029000967249 /* ShapeKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -223,6 +388,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		664005CA1AA6029000967249 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664005D41AA6029000967249 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -235,6 +414,7 @@
 				663DFB0F1AA299D9006C2E3D /* CalendarCollectionViewController.swift in Sources */,
 				66AF10741AA40E3400FC35A9 /* Date.swift in Sources */,
 				663DFAEF1AA29961006C2E3D /* AppDelegate.swift in Sources */,
+				66AF10761AA53B1900FC35A9 /* LineView.swift in Sources */,
 				663DFB171AA3D2F2006C2E3D /* CalendarEvent.swift in Sources */,
 				66AF10721AA3F9D100FC35A9 /* Event.swift in Sources */,
 				663DFB151AA2B8B4006C2E3D /* LineDecorationView.swift in Sources */,
@@ -249,6 +429,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		664005C71AA6029000967249 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664005ED1AA602BE00967249 /* CircleView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664005D21AA6029000967249 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664005E01AA6029100967249 /* ShapeKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -256,6 +452,21 @@
 			isa = PBXTargetDependency;
 			target = 663DFAE81AA29961006C2E3D /* Layouts */;
 			targetProxy = 663DFAFF1AA29961006C2E3D /* PBXContainerItemProxy */;
+		};
+		664005D91AA6029100967249 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 664005CB1AA6029000967249 /* ShapeKit */;
+			targetProxy = 664005D81AA6029100967249 /* PBXContainerItemProxy */;
+		};
+		664005DB1AA6029100967249 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 663DFAE81AA29961006C2E3D /* Layouts */;
+			targetProxy = 664005DA1AA6029100967249 /* PBXContainerItemProxy */;
+		};
+		664005E21AA6029100967249 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 664005CB1AA6029000967249 /* ShapeKit */;
+			targetProxy = 664005E11AA6029100967249 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -416,6 +627,81 @@
 			};
 			name = Release;
 		};
+		664005E61AA6029100967249 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShapeKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		664005E71AA6029100967249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ShapeKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		664005E81AA6029100967249 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShapeKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Layouts.app/Layouts";
+			};
+			name = Debug;
+		};
+		664005E91AA6029100967249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShapeKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Layouts.app/Layouts";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -445,6 +731,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		664005EA1AA6029100967249 /* Build configuration list for PBXNativeTarget "ShapeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664005E61AA6029100967249 /* Debug */,
+				664005E71AA6029100967249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		664005EB1AA6029100967249 /* Build configuration list for PBXNativeTarget "ShapeKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664005E81AA6029100967249 /* Debug */,
+				664005E91AA6029100967249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

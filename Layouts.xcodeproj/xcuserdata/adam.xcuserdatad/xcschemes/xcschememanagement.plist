@@ -7,7 +7,22 @@
 		<key>Layouts.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>LayoutsTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>ShapeKit.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>ShapeKitTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -18,6 +33,16 @@
 			<true/>
 		</dict>
 		<key>663DFAFD1AA29961006C2E3D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>664005CB1AA6029000967249</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>664005D51AA6029000967249</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -9,15 +9,4 @@
 import UIKit
 
 class CalendarEventCell: UICollectionViewCell {
-
-    var color: UIColor = UIColor.whiteColor()
-    
-    override func drawRect(rect: CGRect) {
-        self.layer.cornerRadius = self.frame.size.height/2.0
-    }
-    
-    override func applyLayoutAttributes(layoutAttributes: UICollectionViewLayoutAttributes!) {
-        super.applyLayoutAttributes(layoutAttributes)
-    }
-    
 }
