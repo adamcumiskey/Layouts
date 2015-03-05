@@ -10,8 +10,8 @@ import UIKit
 
 class CalendarCollectionViewController: UICollectionViewController {
 
-    var numberOfSections: Int = 3
-    var itemsPerSection: Int = 10
+    var numberOfSections: Int = 1
+    var itemsPerSection: Int = 100
     
     override func viewDidLoad() {
         super.viewDidLoad();
