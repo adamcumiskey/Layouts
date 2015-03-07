@@ -15,10 +15,7 @@ class CalendarCollectionViewController: UICollectionViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad();
-        
-        
     }
-    
     
     // MARK: UICollectionViewDataSource
     override func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {

@@ -7,7 +7,6 @@
 //
 
 import QuartzCore
-import SpriteKit
 import UIKit
 
 @IBDesignable public class CircleView: UIView {
